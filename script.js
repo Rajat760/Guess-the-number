@@ -67,7 +67,7 @@ if (!guess) {
     document.querySelector('.message').textContent = `😁 correct number`;
 // document.querySelector('.message').style.display = 'none';
    document.querySelector('body').style.backgroundColor = '#60b347';
-   document.querySelector('.img').style.backgroundColor = '#60b347';
+   document.querySelector('.ima').style.backgroundColor = '#60b347';
    document.querySelector('.sub').textContent = '🔓 UNLOCKED 🎉🎊'
    document.querySelector('.lock').textContent = ' UNLOCKED !!'
 //    document.querySelector('.number').style.width = '30rem';
