@@ -18,11 +18,10 @@ if (!guess) {
 // document.querySelector('.message').style.display = 'none';
    document.querySelector('body').style.backgroundColor = '#60b347';
    document.querySelector('.ima').style.backgroundColor = '#60b347';
-<<<<<<< HEAD
+
    document.querySelector('.sub').textContent = '🔓 UNLOCKED 🎉🎊, You did it !!! 😎 If you enjoyed, play again !'
-=======
-   document.querySelector('.sub').textContent = '🔓 UNLOCKED 🎉🎊, You did it !!! 😎'
->>>>>>> 3d54861688f3729fe5f185f509bb29764a40f3b5
+
+  
    document.querySelector('.lock').textContent = ' UNLOCKED !!'
 //    document.querySelector('.number').style.width = '30rem';
     // document.querySelector('.number').textContent = secretNumber;
