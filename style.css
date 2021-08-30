@@ -1,0 +1,97 @@
+body {
+    background-color:salmon;
+    height: 500px;
+    overflow:hidden;
+}
+/* @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.ima {
+    background-color: salmon;
+    /* display: flex; */
+    height: 500px;
+    /* align-self: center; */
+    position: relative;
+    width: auto;
+    left: -77px;
+}
+
+.guess {
+    position: relative;
+    top: -336px;
+    left: 50px;
+    height: 50px;
+    width: 230px;
+    text-align: center;
+    font-size: 20px;
+}
+.lock {
+    font-family: 'Changa One', cursive;
+    font-size: 40px;
+    position: relative;
+    top: -508px;
+    left: 60px;
+    color: red;
+}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+.sub {
+    /* font-family: 'Changa One', cursive; */
+    /* font-size: 18px; */
+    width: 419px;
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    top: -696px;
+    left: 598px;
+    /* font-family: 'Press Start 2P', sans-serif; */
+    font-family: 'Press Start 2P', cursive;
+}
+.btn {
+    border: none;
+    background-color: darkblue;
+    border-radius: 33px;
+    color: #eee;
+    font-size: 2rem;
+    font-family: 'Titillium Web', sans-serif;;
+    /* padding: 2rem 3rem; */
+    /* cursor: pointer; */
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+    position: relative;
+    top: -229px;
+    left: -130px;
+  }
+  hr {
+    position: relative;
+    top: 136px;
+      height: 5px;
+      color: white;
+      background-color: white;
+  }
+  .pp {
+    position: relative;
+    top: -661px;
+    left: 844px;
+    font-size: 34px;
+    font-family: 'Changa One';
+}
+  .bts {
+    border: none;
+    background-color: darkcyan;
+    border-radius: 33px;
+    color: rgb(238, 238, 238);
+    font-size: 2rem;
+    font-family: "Titillium Web", sans-serif;
+    padding: 1rem;
+    cursor: pointer;
+    position: relative;
+    top: -875px;
+    left: 888px;
+}
+  
+.imi {
+    position: relative;
+    top: -902px;
+    left: 271px;
+    height: 285px;
+}
