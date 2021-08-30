@@ -1,54 +1,4 @@
-// 'use strict';
-// document.querySelector('.grid-item-1').addEventListener('click', function() {
-//     // document.querySelector('.inxt').style.visibility = 'visible';
-// document.querySelector('.guess').value = 1 ;
-// })
-// document.querySelector('.grid-item-2').addEventListener('click', function() {
-//     // document.querySelector('.inxt').style.visibility = 'visible';
-// document.querySelector('.guess').textContent =  2 ;
-// })
-// document.querySelector('.grid-item-3').addEventListener('click', function() {
-//     // document.querySelector('.inxt').style.visibility = 'visible';
-// document.querySelector('.guess').value = 3 ;
-// })
-// document.querySelector('.grid-item-4').addEventListener('click', function() {
-//     // document.querySelector('.inxt').style.visibility = 'visible';
-// document.querySelector('.guess').value = 4 ;
-// })
-// document.querySelector('.grid-item-5').addEventListener('click', function() {
-//     // document.querySelector('.inxt').style.visibility = 'visible';
-// document.querySelector('.guess').value = 5 ;
-// })
-// document.querySelector('.grid-item-6').addEventListener('click', function() {
-//     // document.querySelector('.inxt').style.visibility = 'visible';
-// document.querySelector('.guess').value = 6 ;
-// })
-// document.querySelector('.grid-item-7').addEventListener('click', function() {
-//     // document.querySelector('.inxt').style.visibility = 'visible';
-// document.querySelector('.guess').value = 7 ;
-// })
-// document.querySelector('.grid-item-8').addEventListener('click', function() {
-//     // document.querySelector('.inxt').style.visibility = 'visible';
-// document.querySelector('.guess').value = 8 ;
-// })
-// document.querySelector('.grid-item-0').addEventListener('click', function() {
-//     // document.querySelector('.inxt').style.visibility = 'visible';
-// document.querySelector('.guess').value = 0 ;
-// })
-// document.querySelector('.grid-item-9').addEventListener('click', function() {
-//     // document.querySelector('.inxt').style.visibility = 'visible';
-// document.querySelector('.guess').value = 9 ;
-// })
-// document.querySelector('.grid-item-cl').addEventListener('click', function() {
-//     // document.querySelector('.inxt').style.visibility = 'visible';
-// // document.querySelector('.guess').value = 1 ;
-// document.querySelector('.guess').value = '';
-// })
-// document.querySelector('.grid-item-cld').addEventListener('click', function() {
-//     // document.querySelector('.inxt').style.visibility = 'visible';
-// // document.querySelector('.guess').value = 1 ;
-// document.querySelector('.guess').value = '';
-// })
+'use strict';
 let secretNumber = Math.trunc(Math.random() * 100) + 1 ;
 let score = 20;
 let highscore = 0;
@@ -68,7 +18,7 @@ if (!guess) {
 // document.querySelector('.message').style.display = 'none';
    document.querySelector('body').style.backgroundColor = '#60b347';
    document.querySelector('.ima').style.backgroundColor = '#60b347';
-   document.querySelector('.sub').textContent = '🔓 UNLOCKED 🎉🎊'
+   document.querySelector('.sub').textContent = '🔓 UNLOCKED 🎉🎊, You did it !!! 😎 If you enjoyed, play again !'
    document.querySelector('.lock').textContent = ' UNLOCKED !!'
 //    document.querySelector('.number').style.width = '30rem';
     // document.querySelector('.number').textContent = secretNumber;
